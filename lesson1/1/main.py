@@ -35,7 +35,7 @@ def time_count():
     time_string = str(input())
     if not time_string.isdigit():
         raise Exception("Invalid input")
-    hours = int(time_string) //с 3600
+    hours = int(time_string) // 3600
     print("Hours: ", hours)
     minutes = int(time_string) % 3600 // 60
     print("Minutes: ", minutes)
