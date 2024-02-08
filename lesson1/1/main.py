@@ -61,4 +61,5 @@ def digit_operations():
 if __name__ == '__main__':
     variables()
     time_count()
+    digit_operations()
 
